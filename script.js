@@ -128,6 +128,7 @@ function reset() {
     turn = "X";
     document.querySelector("#active-player span").innerHTML = "X";
     element.style.cursor = "pointer";
+    element.removeAttribute("title");
   });
   playerWon.innerHTML = "Play To Win";
   var board = document.querySelector(".game");
